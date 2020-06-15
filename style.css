@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #3e3e3e;
+    display: flex;
+    width: 100%;
+}
+.dsf{ padding: 35px; }
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #212422;
+    border-radius: 20px;
+    margin: 25px 20px;
+    box-shadow: 0px 0px 15px 3px rgba(240,112,73,0.57);
+}
+h2{
+    color: #f07049;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+input:not([type=submit]){
+    color: #f07049;
+}
+input[type=submit]{
+    color: white;
+    background: rgb(255,107,71);
+background: linear-gradient(90deg, rgba(255,107,71,1) 44%, rgba(255,161,94,1) 100%);
+}
+::placeholder{
+    color: #f07049;
+    opacity: .65;
+    padding-left: 5%;
+}
+input{
+    border-radius: 25px;
+    background-color: #2a2a2a;
+    border: none;
+    font-size: large;
+}
+input:not([type=radio]):hover{     
+    box-shadow: 0px 0px 15px 3px rgba(240,112,73,0.57);
+}
+a{ color: #f07049; }
+
+p{
+    margin: 12.5px auto;
+    font-size: 12px;
+    text-align: center;
+}
+input:not([type=radio]) { 
+    width: 100%;
+    height: 30px;
+    margin-top: 35px;
+
+}
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #3e3e3e;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #f07049;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+label{ font-size: 12px; }
+input[type='radio'] { margin-right: 10px; }
+input:nth-of-type(3) { margin-bottom: 8px; }
+
+.social{
+    background-color: #3e3e3e;
+    border-radius: 0 0 20px 20px;
+    border-top: 2px solid #f07049;
+    width: 100%;
+    padding: 0;
+}
+.SIcons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px auto;
+}
+img{
+    height: 25px;
+    width: 25px;
+    fill: #f07049;
+}
+.p{ 
+    margin: 20px; 
+}
+.or{
+    display: flex;
+    align-items: center;
+    background-color: #2a2c2c;
+    border: 2px solid #f07049;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+    top: -15px;
+}
